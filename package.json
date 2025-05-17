@@ -1,12 +1,12 @@
 {
   "name": "lootpay-library",
-  "module": "index.ts",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
+  "module": "/src/index.ts",
   "peerDependencies": {
     "typescript": "^5"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^22.15.18"
+  }
 }
