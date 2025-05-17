@@ -1,6 +1,6 @@
 {
   "name": "lootpay-library",
-  "module": "/src/index.ts",
+  "module": "src/index.ts",
   "peerDependencies": {
     "typescript": "^5"
   },
