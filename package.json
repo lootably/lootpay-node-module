@@ -1,6 +1,7 @@
 {
   "name": "lootpay",
   "module": "src/index.ts",
+  "main": "src/index.js",
   "version": "1.0.0",
   "repository": {
     "type": "git",
