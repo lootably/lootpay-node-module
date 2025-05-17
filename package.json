@@ -1,10 +1,14 @@
 {
-  "name": "lootpay-library",
+  "name": "lootpay",
   "module": "src/index.ts",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lootably/lootpay-node-module.git"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
-  "private": true,
   "type": "module",
   "devDependencies": {
     "@types/node": "^22.15.18"

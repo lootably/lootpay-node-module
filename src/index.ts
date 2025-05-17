@@ -1,7 +1,3 @@
 import LootPayClient from "./client";
 
-export default {
-  client: {
-    LootPayClient,
-  },
-};
+export const client = LootPayClient;
