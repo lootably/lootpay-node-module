@@ -199,12 +199,9 @@ export default class LootPayClient {
   async getTransaction(transactionID: string) {
     try {
       const { err, data } = await makev1LootpayRequest<LootPayTransaction>({
-        url: `transactions/get`,
-        method: 'POST',
+        url: `transactions/get?transactionID=${transactionID}`,
+        method: 'GET',
         apiKey: this.apiKey,
-        body: {
-          transactionID,
-        },
       });
 
       if (err) return { err };
