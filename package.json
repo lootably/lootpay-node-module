@@ -1,8 +1,8 @@
 {
   "name": "lootpay",
   "version": "2.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "type": "module",
   "files": [
     "dist/**/*"
